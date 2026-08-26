@@ -45,7 +45,7 @@ let current = surface[.dark]   // .black
 
 ```swift
 dependencies: [
-    .package(url: "https://github.com/swift-foundations/swift-color.git", branch: "main")
+    .package(url: "https://github.com/swift-compositions/swift-color.git", branch: "main")
 ]
 ```
 
