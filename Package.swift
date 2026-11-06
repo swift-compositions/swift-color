@@ -31,7 +31,7 @@ let package = Package(
         .testTarget(
             name: "Color Tests",
             dependencies: [
-                "Color"
+                .target(name: "Color")
             ]
         ),
     ],
