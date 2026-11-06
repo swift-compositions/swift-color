@@ -1,7 +1,9 @@
 import Color
 import Testing
 
-extension Color {
+enum `Color Tests` {}
+
+extension `Color Tests` {
     @Suite struct Test {
         @Test
         func `Color module re-exports Color_Standard and Theme`() {
